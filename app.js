@@ -7,7 +7,7 @@ function getJokes(e) {
 
   xhr.open(
     "GET",
-    `https://cors.io/?https://api.icndb.com/jokes/random/${number}`,
+    `https://crossorigin.me/https://api.icndb.com/jokes/random/${number}`,
     true
   );
 
